@@ -1,0 +1,32 @@
+.font-editor{
+    font-family: monospace, monospace!important;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.file-viewer{
+
+}
+
+.file-viewer div{
+    contain: content;
+    display: grid
+;
+    grid-template-columns: min-content min-content min-content;
+    gap: 0.4rem;
+} 
+
+.offset{
+    color: #bd8d00!important;
+}
+
+.chr{
+    color: blue!important;
+}
